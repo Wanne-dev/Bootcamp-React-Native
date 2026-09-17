@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Entorno / sistema
+.DS_Store
+*.log
+.env
+.env.*
