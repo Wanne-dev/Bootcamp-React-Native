@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380">
+  <rect width="520" height="380" fill="#F3F4F6"/>
+  <text x="24" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111827">Flexbox en la tarjeta de producto</text>
+
+  <!-- Tarjeta -->
+  <rect x="40" y="70" width="440" height="120" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- Imagen -->
+  <rect x="56" y="90" width="72" height="80" rx="8" fill="#CBD5E1"/>
+  <text x="74" y="136" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">Imagen</text>
+  <!-- Info -->
+  <rect x="144" y="90" width="220" height="80" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1" rx="8"/>
+  <text x="158" y="116" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111827">Nombre + descripción (flex: 1)</text>
+  <text x="158" y="136" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6B7280">ocupa el espacio restante</text>
+  <!-- Fila inferior -->
+  <rect x="380" y="90" width="84" height="80" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1" rx="8"/>
+  <text x="394" y="126" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#EA580C">Precio</text>
+  <text x="392" y="144" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9A3412">alineado a la derecha</text>
+
+  <!-- Anotaciones -->
+  <line x1="200" y1="180" x2="200" y2="210" stroke="#1E3A8A" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E3A8A"/>
+    </marker>
+  </defs>
+  <text x="150" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1E3A8A">tarjeta: flexDirection 'row' + alignItems 'center'</text>
+  <text x="150" y="250" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1E3A8A">filaInferior: flexDirection 'row' + justifyContent 'space-between'</text>
+</svg>

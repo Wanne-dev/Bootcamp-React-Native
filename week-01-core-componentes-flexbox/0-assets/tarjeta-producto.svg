@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="160" viewBox="0 0 400 160">
+  <rect width="400" height="160" fill="#F3F4F6"/>
+  <text x="20" y="28" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#111827">Tarjeta de Producto</text>
+  <rect x="20" y="44" width="360" height="96" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="32" y="60" width="64" height="64" rx="8" fill="#CBD5E1"/>
+  <text x="46" y="98" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#475569">Imagen</text>
+  <text x="112" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111827">Nombre del producto</text>
+  <text x="112" y="96" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6B7280">Descripción corta del producto</text>
+  <text x="112" y="124" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#EA580C">$ 8.500</text>
+  <text x="300" y="124" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#16A34A">stock</text>
+  <line x1="112" y1="108" x2="360" y2="108" stroke="#E5E7EB" stroke-width="1"/>
+</svg>
